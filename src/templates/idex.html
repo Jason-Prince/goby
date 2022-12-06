@@ -1,0 +1,285 @@
+---
+title: "Order confirmation"
+preheader: "Oh hi there. Just wanted to let you know your subscription has been processed. Hang tight while we package your Goby goods. We’ll be in touch with tracking info as soon as it’s ready. "
+bodyClass: bg-slate-100
+---
+
+<extends src="src/layouts/main.html">
+  <block name="template">
+    <table width="100%">
+      <tr>
+        <td align="center">
+          <!-- Logo -->
+          <table class="w-full">
+            <tr>
+              <td class="p-6 text-center">
+                <a href="https://maizzle.com">
+                  <img
+                    src="https://res.cloudinary.com/endersgame/image/upload/v1670347343/goby/logo.png"
+                    alt="GOBY"
+                    class="w-24 align-middle [border:0]"
+                  />
+                </a>
+              </td>
+            </tr>
+          </table>
+          <!-- Email -->
+          <table class="w-[600px] sm:w-full font-sans bg-white p-5">
+            <tr>
+              <td class="sm:px-4">
+                <table class="w-[600px] sm:w-full">
+                  <tr>
+                    <td>
+                      <!-- Hero image -->
+                      <table class="w-full">
+                        <tr>
+                          <td>
+                            <img
+                              src="https://res.cloudinary.com/endersgame/image/upload/v1670347342/goby/hero.jpg"
+                              alt="toothbrush on the left and a yellow rubber ducky on the right"
+                              class="w-full [border:0]"
+                            />
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- Order confirmation text -->
+                      <table>
+                        <tr>
+                          <td>
+                            <p class="px-6 text-base text-slate-500">
+                              Oh hi there. Just wanted to let you know your
+                              subscription has been processed. Hang tight while
+                              we package your Goby goods. We’ll be in touch with
+                              tracking info as soon as it’s ready.
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- Horizontal line separator -->
+                      <table class="w-full" role="separator">
+                        <tr>
+                          <td class="p-2">
+                            <div class="bg-slate-300 h-px leading-px">
+                              &zwnj;
+                            </div>
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- Order item -->
+                      <table class="w-full">
+                        <tr>
+                          <td class="text-center">
+                            <!-- Order image -->
+                            <img
+                              src="https://res.cloudinary.com/endersgame/image/upload/v1670347342/goby/brushhead.png"
+                              alt="toothbrush"
+                            />
+                          </td>
+                          <td class="align-top">
+                            <!-- Order info -->
+                            <p class="text-base text-slate-500 leading-relaxed">
+                              <span class="font-bold">Brush Heads</span><br />
+                              Quantity: 1
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- Horizontal line separator -->
+                      <table class="w-full" role="separator">
+                        <tr>
+                          <td class="p-2">
+                            <div class="bg-slate-300 h-px leading-px">
+                              &zwnj;
+                            </div>
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- Shipping info wrapper -->
+                      <table class="w-full">
+                        <tr>
+                          <!-- Shipping address -->
+                          <td class="w-1/2 sm:w-full sm:inline-block align-top">
+                            <table>
+                              <tr>
+                                <td>
+                                  <p
+                                    class="px-6 text-base leading-relaxed text-slate-500"
+                                  >
+                                    <span class="font-semibold">
+                                      Shipping To: </span
+                                    ><br />
+                                    John Doe <br />
+                                    555 W State Ave <br />
+                                    Salt Lake City, Utah <br />
+                                    84107
+                                  </p>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                          <!-- Shipping method -->
+                          <td class="w-1/2 sm:w-full sm:inline-block align-top">
+                            <table>
+                              <tr>
+                                <td>
+                                  <p
+                                    class="px-6 text-base leading-relaxed text-slate-500"
+                                  >
+                                    <span class="font-semibold">Shipping:</span
+                                    ><br />
+                                    Ground
+                                  </p>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- Horizontal line separator -->
+                      <table class="w-full" role="separator">
+                        <tr>
+                          <td class="p-2">
+                            <div class="bg-slate-300 h-px leading-px">
+                              &zwnj;
+                            </div>
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- Questions -->
+                      <table>
+                        <tr>
+                          <td>
+                            <p
+                              class="px-6 text-base leading-relaxed text-slate-500"
+                            >
+                              Have any questions about your order or just want
+                              to say hi? Shoot us a note at
+                              <a href="#">help@goby.co</a> <br />
+                              <br />
+                              Happy brushing! <br />
+                              <span class="font-bold">-Goby</span>
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- Sharing -->
+                      <table class="w-full p-10 bg-blue-550">
+                        <tr>
+                          <td>
+                            <!-- Share Goby Score -->
+                            <table class="w-full">
+                              <tr>
+                                <td>
+                                  <img
+                                    src="https://res.cloudinary.com/endersgame/image/upload/v1670347343/goby/share_goby_score.png"
+                                    alt="share goby, score"
+                                    class="w-full [border:0]"
+                                  />
+                                </td>
+                              </tr>
+                            </table>
+                            <!-- Free Brush Heads -->
+                            <table class="w-full">
+                              <tr>
+                                <td>
+                                  <img
+                                    src="https://res.cloudinary.com/endersgame/image/upload/v1670347342/goby/free_brush_heads.png"
+                                    alt="free brush heads"
+                                    class="w-full [border:0]"
+                                  />
+                                </td>
+                              </tr>
+                            </table>
+                            <!-- Log In text -->
+                            <table class="w-full">
+                              <tr>
+                                <td>
+                                  <p
+                                    class="pb-3 text-base text-center font-semibold leading-relaxed text-sky-50"
+                                  >
+                                    Log in to your account to start sharing
+                                    Goby.
+                                  </p>
+                                </td>
+                              </tr>
+                            </table>
+                            <!-- Get Your Link button -->
+                            <table class="w-full">
+                              <tr>
+                                <th
+                                  class="border-2 border-blue-550 bg-sky-50 block rounded mso-padding-alt-[12px_48px]"
+                                >
+                                  <a
+                                    href="https://maizzle.com"
+                                    class="block py-4 px-12 text-slate-500 leading-full [text-decoration:none]"
+                                  >
+                                    GET YOUR LINK
+                                  </a>
+                                </th>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- Social Media -->
+                      <table class="w-full text-center pt-10 pb-6">
+                        <tr>
+                          <!-- Twitter -->
+                          <td class="text-center align-center" align="center">
+                            <a href="#">
+                              <img
+                                src="https://res.cloudinary.com/endersgame/image/upload/v1670347343/goby/twitter.png"
+                                alt="Twitter"
+                                class="w-12 text-center align-center"
+                                align="center"
+                              />
+                            </a>
+                          </td>
+                          <!-- Facebook -->
+                          <td>
+                            <a href="#">
+                              <img
+                                src="https://res.cloudinary.com/endersgame/image/upload/v1670347342/goby/facebook.png"
+                                alt="Facebook"
+                                class="w-12"
+                              />
+                            </a>
+                          </td>
+                          <!-- Instagram -->
+                          <td>
+                            <a href="#">
+                              <img
+                                src="https://res.cloudinary.com/endersgame/image/upload/v1670347342/goby/instagram.png"
+                                alt="Instagram"
+                                class="w-12"
+                              />
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <!-- Unsubscribe -->
+          <table class="w-full">
+            <tr>
+              <td>
+                <p
+                  class="text-xs text-base text-slate-500 leading-relaxed text-center"
+                >
+                  No longer want to receive these emails? You can unsubscribe
+                  <a href="#" class="font-bold no-underline text-slate-500"
+                    >unsubscribe</a
+                  >.
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </block>
+</extends>
